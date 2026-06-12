@@ -6,7 +6,7 @@
     box-sizing: border-box;
    }
 
-   .header{
+   .navbar{
     background-color: black;
     display: flex;
     justify-content: space-between;
