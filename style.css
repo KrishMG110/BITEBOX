@@ -8,7 +8,7 @@
    }
 
    .navbar{
-    background-color: black;
+    background-color:#222831;
      display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,12 +20,16 @@
     list-style: none;
     
     
+    
    }
    a{
     color: white;
     list-style: none;
-    padding-left: 30px;
+    padding-left:30px;
     text-decoration: none;
+    transition: 0.3s;
+    font-size: 18px;
+    
    }
    .logo{
     font-size: 40px;
@@ -34,7 +38,7 @@
     font-style:italic;
 
    }
-   a :hover{
+   .nav-links a:hover{
     
     color: red;
    }
