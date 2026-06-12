@@ -9,40 +9,51 @@
 .navbar {
     background-color: #1a0101;
     display: flex;
-    justify-content:space-between;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
     padding: 30px;
+    
+    
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+
+    
+}
+a{
+    padding-left: 25px;
+}
+span{
+    color: red;
 }
 
 /* Logo */
 .logo {
-    color: white;
-    font-size: 28px;
+    color: rgb(238, 229, 229);
+    font-size: 40px;
     font-weight: bold;
     font-family: Arial, sans-serif;
+    font-style: italic;
 }
+
 
 /* Navigation Links */
-.nav-links {
-    list-style: none;
-    display: flex;
-}
+
 
 /* List Items */
-.nav-links li {
-    margin-left: 25px;
-}
+
 
 /* Links */
 .nav-links a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     font-family: Arial, sans-serif;
     transition: 0.3s;
 }
 
 /* Hover Effect */
 .nav-links a:hover {
-    color: yellow;
+    color: rgb(193, 19, 39);
 }
