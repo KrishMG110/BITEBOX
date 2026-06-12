@@ -9,7 +9,7 @@
 
    .navbar{
     background-color: black;
-display: flex;
+     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
@@ -17,6 +17,7 @@ display: flex;
    }
    .nav-links{
     display: flex;
+    list-style: none;
     
     
    }
@@ -24,4 +25,16 @@ display: flex;
     color: white;
     list-style: none;
     padding-left: 30px;
+    text-decoration: none;
+   }
+   .logo{
+    font-size: 40px;
+    color:white;
+    font-weight: bold;
+    font-style:italic;
+
+   }
+   a :hover{
+    
+    color: red;
    }
