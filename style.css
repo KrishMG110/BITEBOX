@@ -4,34 +4,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
    }
 
    .navbar{
     background-color: black;
-    display: flex;
+display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    
-   }
-   .nav-links {
-    display: flex;
-    list-style: none;
-    
-    
-    
 
+   }
+   .nav-links{
+    display: flex;
+    
+    
    }
    a{
+    color: white;
+    list-style: none;
     padding-left: 30px;
-    color: aliceblue;
-    
-    
-   }
-   .logo{
-    font-size: 30px;
-   }
-   .a :hover{
-    color: red;
-
    }
