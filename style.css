@@ -12,20 +12,18 @@
      display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding:30px;
 
    }
    .nav-links{
     display: flex;
     list-style: none;
-    
-    
-    
+    gap: 20px;
+     
    }
    a{
     color: white;
     list-style: none;
-    padding-left:30px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 18px;
@@ -38,7 +36,14 @@
     font-style:italic;
 
    }
-   .nav-links a:hover{
+    #login{
+        padding: 5px 12px;
+        background-color: red;
+        border-radius:5px ;
+        
+    }
+    #box{
+        color: red;
+    }
     
-    color: red;
-   }
+   
