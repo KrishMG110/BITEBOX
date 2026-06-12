@@ -14,14 +14,24 @@
     padding: 30px;
     
    }
-   .nav-links{
+   .nav-links {
     display: flex;
+    list-style: none;
+    
     
     
 
    }
    a{
-    margin-left: 30px;
+    padding-left: 30px;
     color: aliceblue;
     
+    
+   }
+   .logo{
+    font-size: 30px;
+   }
+   .a :hover{
+    color: red;
+
    }
