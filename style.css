@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  font-family: 'Josefin Sans';
+
+
+
+
+}
+
+.nav{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+}
+.logo{
+    
+
+    height: 150px;
+    width: 250px;
+    margin-bottom: 30px;
+    
+    
+   
+    background-image: url("images/Bitebox-logo.png");
+    background-size: cover;
+}
+
+.link{
+ margin-bottom: 20px;   
+}
+.link a{
+    margin-right: 20px;
+    
+}
+#login{
+    padding:7px 15px;
+    margin-right: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-family: 'Josefin Sans';
+
+
+
+
+}
+ .link a{
+    text-decoration: none;
+color: white;
+font-size: 1.3rem;
+    
+
+}
+.link a:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+#login:hover{
+    color:black;
+    transition: 0.3s;
+}
