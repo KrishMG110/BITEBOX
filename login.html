@@ -10,16 +10,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&family=Changa+One:ital@0;1&family=Croissant+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+JP:wght@100..900&family=Ole&family=Tai+Heritage+Pro:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
-<body class="b">
+<body>
+     <header>
+        <div class="nav">
+                <div class="bite">
+                    <img src="images/Bitebox-logo.png" alt="">
+                </div>
+            
+            <div class="link">
+                <a href=""><i class="fa-solid fa-house"></i>Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="">Bitedeals</a>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i>cart</a>
+                <button id="login">
+                    <a href="login.html">Login</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="login-form">
 <form>
-    <h2> Login Form</h2>
+    <h1> Login to Bite<span id="box">box</span></h1>
      <div class="icon">
-        <input type="email" placeholder="Enter Email" required> 
+        <input type="email" placeholder="Enter Email" id="email" required> 
         <i class="fa-solid fa-user"></i>
 </div>
 <div class="icon">
-        <input type="password" placeholder="password" required> 
-<i class="fa-solid fa-lock"></i>
+        <input type="password" placeholder="Enter password" id="password" required> 
+<i class="fa-solid fa-eye" onclick="toggle_password()"></i>
 </div>
     <div class="f">
         <div class="r">
@@ -27,13 +45,14 @@
         </div>
         <p>forget password ?</p>
     </div>
-   <button type="submit">login
-</button>
+   <button type="button" onclick="login()">login</button>
 <p class="signup"><a href="signup.html" >signup</a></p>
-<p>Already have an account <a href="login.html"></a></p>
+<p id="error" style="color: red;"></p>
+<a href="login.html" class="account">Already have an account </a>
 
     </form>
 
-    
+    </div>
+    <script src="script.js"></script>
 </body>
     </html>
