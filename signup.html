@@ -29,37 +29,33 @@
             </div>
         </div>
     </header>
-    <div class="signup-form">
-<form>
-    <h2>Signup form</h2>
+    <div class="main">
+   <form>
+    <h1>signup form</h1>
     <div class="icon">
-    <input type="text" placeholder="enter fullname">
+    <input type="text" placeholder="user_name" id="user_name">
+    <small class="error" id="u_error"></small>
     </div>
-     <div class="icon">
-        <input type="email" placeholder="Enter Email" required> 
-        <i class="fa-solid fa-user"></i>
+    <div class="icon">
+    <input type="email" placeholder="Enter email" id="email">
+    <small class="error" id="e_error"></small>
+    </div>
+    <div class="icon">
+    <input type="password" placeholder="enter password" id="password">
+     <small class="error" id="p_error"></small>
 </div>
 <div class="icon">
-        <input type="password" placeholder="password" required> 
-<i class="fa-solid fa-lock"></i>
-</div>
-<div class="icon">
-<input type="password" placeholder="conform password">
-</div>
-    <div class="f">
-        <div class="r">
-        <input type="checkbox">Remember 
-        </div>
-        <p>forget password ?</p>
-    </div>
-    <p id="log">
-   <a href="login.html"> <a href=""></a>Login</a>
-   </p>
-</button>
-<p id="have">Already have an account <a href="login.html"></a></p>
-    </form>
+        <input type="password" placeholder="comform password" id="c_password">
+         <small class="error" id="comform_password"></small>
+         </div>
 
-    </div>
+    <input type="submit" id="signup_btn">
 
+    <p id="success_msg" style="display: none;color: green;"></p>
+
+
+   </form>
+   </div>
+<script src="script.js"></script>
 </body>
 </html>

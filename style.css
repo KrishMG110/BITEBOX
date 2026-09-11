@@ -17,7 +17,7 @@ header{
 .nav{
     z-index: 2;
     height: 100px;
-    background-color: black;
+    background-color: #0B0909;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -219,7 +219,7 @@ form{
     height: 500px;
     width:400px ;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
     justify-content: center;
     
@@ -296,9 +296,12 @@ form button a{
 .icon{
 width: 100%;
     position: relative;
+
     
 
 }
+
+
 
 .icon input{
     width: 100%;
@@ -497,7 +500,7 @@ form #box{
     color: #100606;
 }
 .login-form button:hover{
-    border: 2px solid black;
+    border: 1.5px solid black;
 }
 .signup-form h2{
     color: black;
@@ -630,4 +633,35 @@ margin-bottom: 10px;
 .green{
     border-top: 5px solid rgb(0, 255, 0);
     
+}
+
+.main .error{
+    display: none;
+    color: red;
+    
+}
+#log_form .log_error{
+    display: none;
+    color: red;
+}
+
+.main{
+    height: 88vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main #signup_btn {
+padding: 7px 15px;
+border-radius:10px;
+background-color: red;
+border: none;
+color: white;
+font-weight: bold;
+}
+.eye{
+    display: none;
 }

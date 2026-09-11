@@ -29,15 +29,16 @@
         </div>
     </header>
     <div class="login-form">
-<form>
+<form  id="log_form">
     <h1> Login to Bite<span id="box">box</span></h1>
      <div class="icon">
-        <input type="email" placeholder="Enter Email" id="email" required> 
+        <input type="email" placeholder="Enter Email" id="login_email" > 
+        <small id="login_error" class="log_error">fv</small>
         <i class="fa-solid fa-user"></i>
 </div>
 <div class="icon">
-        <input type="password" placeholder="Enter password" id="password" required> 
-<i class="fa-solid fa-eye" onclick="toggle_password()"></i>
+        <input type="password" placeholder="Enter password" id="login_password" > 
+<i class="fa-solid fa-eye" id="eye"></i>
 </div>
     <div class="f">
         <div class="r">
@@ -45,10 +46,13 @@
         </div>
         <p>forget password ?</p>
     </div>
-   <button type="button" onclick="login()">login</button>
+   <button type="submit">login</button>
+        <p id="l_error" class="log_error"></p>
+
 <p class="signup"><a href="signup.html" >signup</a></p>
 <p id="error" style="color: red;"></p>
 <a href="login.html" class="account">Already have an account </a>
+
 
     </form>
 
